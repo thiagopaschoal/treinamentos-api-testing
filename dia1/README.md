@@ -38,7 +38,7 @@ Antes de começar, aviso de que este é um treinamento proibido para menores de 
 
 ------
 
-<div style="display: flex; justify-content: space-between; width: 100%; flex-direction: row;">
+<div style="display: flex; justify-content: space-between; width: 100%;">
     <div>
       <h3><strong>Capítulo Anterior</strong></h3>
       <h4><a href="../README.md" target="_blank">Boas-Vindas</h4>
