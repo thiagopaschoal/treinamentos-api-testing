@@ -35,5 +35,3 @@ Antes de começar, aviso de que este é um treinamento proibido para menores de 
 <h4> 
 	🚧  Instalando o ambiente Java 🚀 Em construção...  🚧
 </h4>
-
-------
