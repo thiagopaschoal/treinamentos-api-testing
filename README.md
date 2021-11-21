@@ -22,7 +22,7 @@ Espero que gostem e bem-vindos a iniciativa Testes de API (nossa, isso soouu mui
 
 1. [Java I (Conceitos Básicos) - **Dia 1**](dia1/README.md)
 
-2. [JUnit e Conceitos Básicos de APIs - **Dia 2**](dia2/README.md)
+2. [JUnit 5 e Conceitos Básicos de APIs - **Dia 2**](dia2/README.md)
 
 3. [Rest-Assured + Desafio - **Dia 3**](dia3/README.md)
 
