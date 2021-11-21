@@ -31,7 +31,7 @@ Espero que gostem e bem-vindos a iniciativa Testes de API (nossa, isso soouu mui
 
 ![gif](gifs/assemble.gif)
 
-<div style="display: flex; justify-content: flex-end; width: 100%;">
+<div style="display: flex; justify-content: flex-end;">
     <div>
       <h3><strong>Próximo Capítulo</strong></h3>
       <h4><a href="./dia1/README.md" target="_blank">Vamos começar?</h4>
