@@ -1,6 +1,5 @@
-# **Testes de API (API Testing) - Java I (Conceitos Básicos)**
-
-*Thiago Sakurai Paschoal*
+<h1 align="center">Java I (Conceitos Básicos)</h1>
+<p align="center">Thiago Sakurai Paschoal</p>
 
 Tabela de conteúdos
 =================

@@ -1,6 +1,5 @@
-# **Testes de API (API Testing)**
-
-*Thiago Sakurai Paschoal*
+<h1 align="center">Testes de API (API Testing)</h1>
+<p align="center">Thiago Sakurai Paschoal</p>
 
 ## **O que vamos aprender?**
 
