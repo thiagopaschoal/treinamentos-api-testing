@@ -4,7 +4,11 @@
 
 ## **O que vamos aprender?**
 
-Primeiramente, quero desejar **BOAS-VINDAS** a todos vcs!! Neste treinamento vamos estudar sobre testes de API iniciando primeiramente na linguagem Java e depois dando seguimento a este conteúdo vamos terminar criando e rodando o nosso primeiro teste com Rest-Assured!!
+Primeiramente, quero desejar **BOAS-VINDAS** a todos vcs!! 
+
+![gif](gifs/stark.gif)
+
+Neste treinamento vamos estudar sobre testes de API iniciando primeiramente na linguagem Java e depois dando seguimento a este conteúdo vamos terminar criando e rodando o nosso primeiro teste com Rest-Assured!!
 
 ![gif](images/spider-man-espanto.webp)
 
@@ -15,9 +19,6 @@ Este tres dias de treinamento foram divididos para que vc aluno, possa absorver 
 Espero que gostem e bem-vindos a iniciativa Testes de API (nossa, isso soouu muito **Vingadores**, kkkkk).
 
 ![gif](gifs/captain-america.gif)
-
-<br>
-
 ## **Agenda**
 
 1. [Java I (Conceitos Básicos) - **Dia 1**](dia1/README.md)
@@ -26,10 +27,6 @@ Espero que gostem e bem-vindos a iniciativa Testes de API (nossa, isso soouu mui
 
 3. [Rest-Assured + Desafio - **Dia 3**](dia3/README.md)
 
-<br>
-
-# **Então bora começar a codar!!!**
-
-![gif](gifs/codar.gif)
+# **Bora começar a codar!!!** (#boraCodar)
 
 ![gif](gifs/assemble.gif)
