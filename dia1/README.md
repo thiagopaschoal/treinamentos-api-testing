@@ -487,10 +487,10 @@ public class Conta {
     // .. outros atributos
 
 	public void deposita(double valor) {
-		if (valor <= 0) {
-			throw new RuntimeException("saldo não pode ser menor ou igual a zero.");
-		}
-		this.saldo += valor;
+	if (valor <= 0) {
+	throw new RuntimeException("saldo não pode ser menor ou igual a zero.");
+	}
+	this.saldo += valor;
 	}
 
 }
