@@ -8,9 +8,17 @@ Neste capítulo do nosso treinamento, vamos iniciar o desenvolvimento do nossos 
 
 Nossa que massa! Mas como vamos fazer isso? Eis a questão.
 
+# Um pouco sobre JUnit 5
+
+![junit5](./screenshots/junit5.jpg)
+
+JUnit 5 é extremamente usado para testes unitários em pequenas ou grandes aplicações feitas em Java. Mas existe apenas o JUnit 5? Não, existem outras como por exemplo o TestNG.
+
 Para começar primeiro, vamos criar um novo projeto e adaptar nossas duas classes a este. Lembrando que este mesmo projeto será usado agora até o fim deste treinamento. Para nos ajudar a criar este projeto, vamos usar o `Maven` que nada mais é do que uma ferramenta (mais uma para colocar no nosso cinto de utilidades! Estamos no nível Batman heim!!) para automatização de build e gerenciamento de depêndencia. Não abordaremos em detalhes o Maven neste treinamento.
 
-Após isso, usaremos o JUnit 5 como forma para testarmos o nosso código. JUnit 5 é extremamente usado para testes unitários em pequenas ou grandes aplicações feitas em Java. Mas existe apenas o JUnit 5? Não, existem outras como por exemplo o TestNG.
+Após isso, usaremos o JUnit 5 como forma para testarmos o nosso código. 
+
+# Iniciando com o JUnit 5
 
 #### ***Criando o projeto Maven no Eclipse***
 
@@ -36,7 +44,7 @@ Após isso, usaremos o JUnit 5 como forma para testarmos o nosso código. JUnit 
 
 	![projeto-criado](./screenshots/projeto-maven-criado.png)
 
-#### ***Adicionando e configurando o JUnit 5 nosso projeto***
+#### ***Adicionando e configurando o JUnit 5 no nosso projeto***
 
 Depois de ter criado o projeto no step anterior, vamos configurar o JUnit 5 no nosso projeto para isso vamos abrir o arquivo `pom.xml` localizado na raiz do projeto.
 
