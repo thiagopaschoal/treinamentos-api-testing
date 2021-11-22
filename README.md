@@ -29,3 +29,11 @@ Espero que gostem e bem-vindos a iniciativa Testes de API (nossa, isso soouu mui
 # **Bora começar a codar!!!** (#boraCodar)
 
 ![gif](gifs/assemble.gif)
+
+# **Para estudar depois do treinamento**
+
+[Desmitificando o Git e o GitHub — Parte 1](https://medium.com/qa-sampa-meeting/desmitificando-o-git-e-o-github-parte-1-8c95fb6484de)
+
+[Desmitificando o Git e o GitHub — Parte 2](https://medium.com/qa-sampa-meeting/desmitificando-o-git-e-o-github-parte-2-96152e771bc6)
+
+[Desmitificando o Git e o GitHub — Parte 3](https://medium.com/qa-sampa-meeting/desmitificando-o-git-e-o-github-parte-3-848a02632d79)
