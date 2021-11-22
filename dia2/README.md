@@ -48,6 +48,8 @@ Após isso, usaremos o JUnit 5 como forma para testarmos o nosso código.
 
 Depois de ter criado o projeto no step anterior, vamos configurar o JUnit 5 no nosso projeto para isso vamos abrir o arquivo `pom.xml` localizado na raiz do projeto.
 
+![pom](./screenshots/pom-maven.png)
+
 1. Adicione as seguinte dependências abaixo: (este trecho de código deve ser adicionado ates do fechamento da tag `</project>`)
 
 ```code

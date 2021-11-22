@@ -3,13 +3,13 @@
 
 Ahhhhhh mlkkkkk!! Chegamos no final do nosso super-treinamento!! 
 
-![vitoria](vitoria.gif)
+![vitoria](./screenshots/vitoria.gif)
 
 Neste ultimo dia/módulo nos vamos explorar como testar uma API Rest usando a biblioteca Rest-Assured (vide titulo). 
 
 # Um pouco sobre Rest Assured
 
-![rest-assured](rest-assured-logo.png)
+![rest-assured](./screenshots/rest-assured-logo.png)
 
 O Rest Assured nos permite testar serviços RESTful em Java de uma maneira muito mais simples, basicamente, ele nos provê uma maneira de criar chamadas HTTP, como se fossemos um cliente acessando a API.
 
@@ -41,8 +41,44 @@ Basta adicionar apenas essa dependência dentro da tag `<dependencies>` no `pom.
 
 Neste ponto vamos entender passo a passo como criar e adaptar o nosso projeto ao rest-assured de uma forma bem simples para que assim vc aluno(a) possa sempre melhorá-lo.
 
-1. Para começar vamos criar nossa primeira classe de teste? Lembra?
+1. Para começar vamos criar nossa primeira classe de teste? Lembra, como fazer?.
 
-2. 
+2. Vamos nomea-lá como `ReqResApiTest` e depois clicar em `Finish`.
+
+3. Crie uma variavel do tipo `String` e vamos chamá-la de `BASE_URL`.
+
+```java
+private final String BASE_URL = "https://reqres.in/api";
+```
+
+4. Vamos explorar um pouco nosso API, antes de escrevermos os testes.
+
+5. Agora que entendemos e analisamos quais cenários vamos automatizar é hora de partir para o código.
+
+6. Crie um método chamado `testDeveRetornarApenasUmUsuarioAtravesDoId()`.
+
+7. Agora dentro deste método vamos escreve o seguinte conteúdo.
+
+```java
+		final int ID = 1;
+		Response response = RestAssured.given()
+			.baseUri(BASE_URL)
+			.when()
+			.log().all()
+			.get("/users/" + ID)
+			.then()
+			.log().all()
+			.statusCode(200)
+			.extract()
+			.response();
+		MatcherAssert.assertThat(response.jsonPath().get("data"), Matchers.notNullValue());
+		MatcherAssert.assertThat(response.jsonPath().get("data.id"), Matchers.is(1));
+		MatcherAssert.assertThat(response.jsonPath().get("data.email"), Matchers.equalTo("george.bluth@reqres.in"));
+		MatcherAssert.assertThat(response.jsonPath().get("data.first_name"), Matchers.equalTo("George"));
+		MatcherAssert.assertThat(response.jsonPath().get("data.last_name"), Matchers.equalTo("Bluth"));
+```
+
+*** Mas o que faz cada uma dessas linhas? ***
+
 
 
