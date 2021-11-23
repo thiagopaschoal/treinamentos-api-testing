@@ -57,7 +57,7 @@ private final String BASE_URL = "https://reqres.in/api";
 
 6. Crie um método chamado `testDeveRetornarApenasUmUsuarioAtravesDoId()`.
 
-7. Agora dentro deste método vamos escreve o seguinte conteúdo.
+7. Agora dentro deste método vamos escrever o seguinte conteúdo.
 
 ```java
 		final int ID = 1;
@@ -78,7 +78,62 @@ private final String BASE_URL = "https://reqres.in/api";
 		MatcherAssert.assertThat(response.jsonPath().get("data.last_name"), Matchers.equalTo("Bluth"));
 ```
 
-*** Mas o que faz cada uma dessas linhas? ***
+![teste-api](./screenshots/teste-api.png)
+
+### Executando nosso teste
+
+1. Para executar os testes clique com o botão direito no nome do arquivo e siga os seguintes diretorios `Run As` > `JUnit Test`
+
+2. Feedback dos testes
+
+![feedback](./screenshots/feedback.png)
+
+3. Request-Response no Console
+
+![console](./screenshots/result.png)
 
 
+# Desafio
 
+Para este e ultimo desafio nos vamos automatizar os seguintes endpoints (destacados em vermelho). Abaixo algumas informações a considerar. Considerar também o cenário de teste quando o pet não existe para o Id passado.
+
+![desafio-final](./screenshots/desafio-final.png)
+
+Instruções
+
+1. Crie um novo projeto
+2. `BASE_URL`  a ser usada `https://petstore.swagger.io/v2/`
+3. O que eu preciso saber para fazer o `POST`? (este deixo para vcs procurarem! mas podem me chamar a qlqr momento)
+
+	- Mudar ao invés de `get` no Rest-Assured use o método `post`
+	- Usar o método `body` antes de realizar o `post`
+	- Exemplo do body:
+
+		```json
+		{
+			"id": 0,
+			"category": {
+				"id": 0,
+				"name": "vira-lata"
+			},
+			"name": "stark",
+			"photoUrls": [
+				"string"
+			],
+			"tags": [
+				{
+				"id": 0,
+				"name": "string"
+				}
+			],
+			"status": "available"
+		}
+		```
+	Para este cenário validar apenas o `status code` que deve ser `200`.
+
+Quando terminarem os desafios me mandem os projetos (zipados) eu quero muito ver!!!
+
+## Pessoal, chegamos ao fim deste treinamento. Quero agradecer demais a todos vcs por participarem. Qlqr dúvida é só me chamar no Teams como também os outros professores para ajudar. Espero poder trabalhar com vcs um dia!! Boa sorte a todos!!!
+
+
+# Que a força esteja com vcs!!
