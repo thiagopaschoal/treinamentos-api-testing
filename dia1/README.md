@@ -475,7 +475,7 @@ double x = 5 * 10;
     - `Herança`
     - `Polimorfismo`
 
-- Vamos tomar como exemplo, uma classe de nome `Funcionario`.
+- Vamos tomar como exemplo, uma classe de nome `Conta`.
 
 ```java
 public class Conta {
